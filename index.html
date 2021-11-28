@@ -4,65 +4,101 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./scss/style.css" />
         <title>Never Career</title>
     </head>
     <body>
-        <header>
-            <h1>
-                <span class="sr-only">네버 커리어</span>
-                <a href="#none">NEVER Career</a></h1>
-            <div>
-                <a href="#none">내 지원서</a>
-                <a href="#none">지원문의</a>
-                <a href="#none">English<span class="sr-only">site</span></a>
+        <header class="header">
+            <div class="header-wrap">
+                <h1 class="logo">
+                    <span class="sr-only">네버 커리어</span>
+                    <a href="#none"><span class="brand">NEVER</span> Career</a>
+                </h1>
+                <nav>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#none"><i class="fas fa-user"></i>내 지원서</a>
+                        </li>
+                        <li>
+                            <a href="#none"
+                                ><i class="fas fa-pencil-alt"></i>지원문의</a
+                            >
+                        </li>
+                        <li class="eng">
+                            <a href="#none"
+                                >English<span class="sr-only">site</span></a
+                            >
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
-            <header>
-                <article>
-                    <button><span class="sr-only">이전 슬라이드</span></button>
+            <article>
+                <section>
+                    <button>
+                        <span class="sr-only">이전 슬라이드</span
+                        ><i class="fas fa-chevron-left"></i>
+                    </button>
                     <section>
                         <div>
-                            <strong>
-                                수 많은 사용자의 목소리에서 내 일의 자부심과 무게를
-                                느낍니다
-                            </strong>
+                            <p>
+                                수 많은 사용자의 목소리에서 내 일의 자부심과
+                                무게를 느낍니다
+                            </p>
                             <a href="#none">NEVER에서 일한다는 것</a>
                         </div>
                         <div>
-                            <Strong>BE ON THE FAST TRACK</Strong> 네이버 월간 영입 : 기술직군
+                            <p>
+                                BE ON THE FAST TRACK<br />
+                                네이버 월간 영입 : 기술직군
+                            </p>
                             <a href="#none">지원하기</a>
                         </div>
                     </section>
-                    <button><span class="sr-only">다음 슬라이드</span></button>
-                </article>
-                <h2 class="sr-only">채용 분야</h2>
-                <ul>
-                    <li>
-                        개발
-                        <span>69</span>
-                        <span class="sr-only">건</span>
-                    </li>
-                    <li>
-                        설계(디자인)
-                        <span>0</span>
-                        <span class="sr-only">건</span>
-                    </li>
-                    <li>
-                        콘텐츠&서비스
-                        <span>41</span>
-                        <span class="sr-only">건</span>
-                    </li>
-                    <li>
-                        경영지원
-                        <span>11</span>
-                        <span class="sr-only">건</span>
-                    </li>
-                </ul>
-            </header>
+                    <button>
+                        <span class="sr-only">다음 슬라이드</span
+                        ><i class="fas fa-chevron-right"></i>
+                    </button>
+                </section>
+                <section>
+                    <h2 class="sr-only">채용 분야</h2>
+                    <ul>
+                        <li>
+                            개발
+                            <span>69</span>
+                            <span class="sr-only">건</span>
+                        </li>
+                        <li>
+                            설계(디자인)
+                            <span>0</span>
+                            <span class="sr-only">건</span>
+                        </li>
+                        <li>
+                            콘텐츠&서비스
+                            <span>41</span>
+                            <span class="sr-only">건</span>
+                        </li>
+                        <li>
+                            경영지원
+                            <span>11</span>
+                            <span class="sr-only">건</span>
+                        </li>
+                    </ul>
+                </section>
+            </article>
             <article>
-                <h2></span> Culture Report<span class="sr-only">네버의 기업문화에 대해 알려드립니다.</h2>
+                <h2>
+                    Culture Report<span class="sr-only"
+                        >네버의 기업문화에 대해 알려드립니다.</span
+                    >
+                </h2>
                 <section>
                     <h3>제도와 문화</h3>
                     <ul>
@@ -158,7 +194,7 @@
                 <a href="#none"><small>© NEVER Corp.</small></a>
             </div>
             <div>
-                <button>관련사이트</button>
+                <button>관련사이트 <i class="fas fa-plus"></i></button>
                 <ul>
                     <li><a href="#none">NEVER Corporation</a></li>
                     <li><a href="#none">NEVER Developers</a></li>

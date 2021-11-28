@@ -1,0 +1,246 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q {
+  quotes: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "nbg";
+  src: url(../fonts/NanumBarunGothic.otf) format(opentype);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "nbg";
+  src: url(../fonts/NanumBarunGothicBold.otf) format(opentype);
+  font-weight: bold;
+}
+
+html {
+  font-family: "nbg";
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* header */
+.header {
+  width: 100vw;
+  border-bottom: 1px solid #dcdde0;
+}
+
+.header .header-wrap {
+  min-width: 32rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  padding: 0 1rem;
+}
+
+.header .header-wrap .logo {
+  font-size: 2rem;
+  color: #2db400;
+}
+
+.header .header-wrap .logo .brand {
+  font-weight: bold;
+}
+
+.header .header-wrap .gnb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.header .header-wrap .gnb li {
+  margin-left: 0.5rem;
+}
+
+.header .header-wrap .gnb i {
+  margin-right: 0.2rem;
+  color: #c4c4c4;
+}
+
+.header .header-wrap .gnb .eng {
+  color: #c4c4c4;
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrap {
+    height: 3rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-wrap {
+    max-width: 98rem;
+    height: 4.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
