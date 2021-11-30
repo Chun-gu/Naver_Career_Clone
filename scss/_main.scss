@@ -1,1 +1,36 @@
 @charset "utf-8";
+
+body {
+    font-size: 1.4rem;
+    background-color: $bgColor;
+}
+
+main-wrap{
+    min-width: 32rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .main-wrap {
+        height: 3rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-wrap {
+        max-width: 98rem;
+        height: 4.5rem;
+    }
+}
