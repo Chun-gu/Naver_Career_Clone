@@ -249,13 +249,31 @@ body {
   background-color: #eff0f2;
 }
 
-main-wrap {
+.main-wrap {
   min-width: 32rem;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-image {
+  background-image: url(../images/fast_track.jpg);
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.carousel-btn > .carousel-btn-next {
+  right: 0;
 }
 
 @media screen and (min-width: 768px) {
   .main-wrap {
-    height: 3rem;
     margin: 0 auto;
   }
 }
@@ -263,7 +281,6 @@ main-wrap {
 @media screen and (min-width: 1024px) {
   .main-wrap {
     max-width: 98rem;
-    height: 4.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
